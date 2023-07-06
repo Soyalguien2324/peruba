@@ -1,0 +1,21 @@
+#!/bin/bash
+function crtl_c {
+echo -e "\nMe quieres parar?\n"
+read opc
+case $opc in
+	si) yes "Pues yo no quiero" 
+		;;
+	no) 
+		;;
+	q4820vb) exit
+		;;
+	linux) yes "linux me dijo que no pare"
+		;;
+	"para ya") yes "no"
+esac
+}
+trap crtl_c SIGINT
+for ((; ;))
+do
+	echo "a"
+done
