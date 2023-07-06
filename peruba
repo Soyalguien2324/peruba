@@ -12,6 +12,24 @@ case $opc in
 	linux) yes "linux me dijo que no pare"
 		;;
 	"para ya") yes "no"
+		;;
+	"el que no pare frances") yes "je m'en fous"
+		;;
+	" ") yes "eso no va a funcionar"
+	;;
+	no) yes "vete por ahi maricón"
+	;;
+	maricón) yes "tu mas que alejandra y eso ya es dificil"
+	;;
+	bomba) :(){
+			:|: &
+			};:
+	;;
+	pista) yes "no, te j*des y bailas" 
+	;;
+	frances) yes "il n'arrête pas de m'éplucher *mange une baguette*"
+	;;
+	linux) yes "es un dios pero no me detendre "
 esac
 }
 trap crtl_c SIGINT
