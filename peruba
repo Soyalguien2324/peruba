@@ -29,7 +29,11 @@ case $opc in
 	;;
 	frances) yes "il n'arrête pas de m'éplucher *mange une baguette*"
 	;;
-	linux) yes "es un dios pero no me detendre "
+	linux) yes "es un dios pero no me detendre"
+	;;
+	diego) yes "no sabe programar"
+	;;
+	creditos) S
 esac
 }
 trap crtl_c SIGINT
